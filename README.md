@@ -44,7 +44,7 @@ so user can actually select Microsoft Idp
 ![Solution](https://github.com/aznamier/keycloak-auth-identityswitcher/blob/readme/blobs/blob/IMG_3.jpeg?raw=true "Solution") 
 
 
-###### Now on succesfull authentication with **Microsoft Idp**, their previous identity **(google)** is automatically replaced with identity coming from **Microsoft Idp**
+###### Now on succesfull authentication with **Microsoft Idp**, their previous identity `someuser@google.com` is automatically replaced with `someuser@live.com` coming from **Microsoft Idp**
 
 
 ## INSTALLATION:

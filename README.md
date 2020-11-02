@@ -4,7 +4,7 @@
 
 
 ------------------------------------------------------------
-###### Note! This is a workaround that may help in your "legacy to keycloak" transition, but use with caution.
+###### Warning! This is a workaround that may help in your "legacy to keycloak" transition, but use with caution.
 ------------------------------------------------------------
 
 ##### For example in the scenario when there are two clients in the realm:
@@ -30,7 +30,7 @@ Step 5. User is redirected to Keycloak server
 Step 6. Keycloak has already got a session with that browser and redirects to Website 2 with `someuser@google.com`
 
 
-** ERROR ** in this case as Website 2 does have a user `someuser@live.com` but was given `someuser@google.com`
+**ERROR** in this case as Website 2 has `someuser@live.com` but was given `someuser@google.com`
 
 
 

@@ -7,7 +7,7 @@
 	<groupId>com.aznamier.github.keycloak</groupId>
 	<artifactId>keycloak-auth-identityswitcher</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0</version>
+	<version>0.0.1</version>
 
 	<name>Keycloak: Authenticator - IdentitySwitcher</name>
 
